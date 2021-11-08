@@ -1,2 +1,20 @@
 Overview of docker container
 The need for container orchestration tool
+
+
+
+
+----------------------
+:::::Kubernetes Architecture:::::
+Node:
+    It is also referred to as minions
+    It is a machine, physical or virtual on which kubernetes is installed
+    It is a worker machine, and it is where containers gets launched by kubernetes
+
+Cluster:
+    Set of nodes grouped together
+
+
+----> Who is responsible for managing the cluster?
+Master:
+    It is another node configured to act as the manager of the worker nodes
