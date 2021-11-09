@@ -18,3 +18,5 @@ Cluster:
 ----> Who is responsible for managing the cluster?
 Master:
     It is another node configured to act as the manager of the worker nodes
+
+Setting up a kubernetes cluster locally
