@@ -20,3 +20,24 @@ Master:
     It is another node configured to act as the manager of the worker nodes
 
 Setting up a kubernetes cluster locally
+
+
+------------------------------------------------
+Security
+Management
+Logs, Monitoring and Troubleshooting
+Networking/communication
+Exposed Interface/API
+
+-------------------------
+Kubectl - a cli tool
+Node - Single server 
+Kubelet - Kubernetes agent running on nodes, which allows it to talk to talk with the Master
+Control Plane/Master - Set of containers that manage the cluster
+
+-------------
+Kubernetes is installed on this local machine via:
+kind 
+microk8s
+
+Just type them as commands in the terminal to get extra information
